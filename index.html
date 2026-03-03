@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where Elegance Meets Timeless Beauty</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts for elegant typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">VELMORA</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#collection" class="nav-link">Collection</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#why-us" class="nav-link">Why Choose Us</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in-up">
+            <h2 class="tagline">Where Elegance Meets Timeless Beauty</h2>
+            <h1 class="shop-name editable" contenteditable="true">Velmora</h1>
+            <p class="hero-desc">Discover our handcrafted collection of premium female jewelry designed to elevate your
+                everyday style.</p>
+            <a href="#collection" class="btn btn-primary">Explore Collection</a>
+        </div>
+    </section>
+
+    <!-- Collection Section -->
+    <section id="collection" class="collection section-padding">
+        <div class="container">
+            <div class="section-title fade-in-up">
+                <h2>Our Collection</h2>
+                <div class="gold-line"></div>
+            </div>
+
+            <!-- Category Filters -->
+            <div class="filters fade-in-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="necklace">Necklace</button>
+                <button class="filter-btn" data-filter="earrings">Earrings</button>
+                <button class="filter-btn" data-filter="rings">Rings</button>
+                <button class="filter-btn" data-filter="bracelets">Bracelets</button>
+            </div>
+
+            <!-- Product Grid -->
+            <div class="product-grid" id="productGrid">
+                <!-- Products will be injected here via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about section-padding bg-blush">
+        <div class="container about-container">
+            <div class="about-image fade-in-right">
+                <div class="image-frame">
+                    <img src="crafting.png" alt="Jewelry Crafting">
+                </div>
+            </div>
+            <div class="about-text fade-in-left">
+                <h2>About Us</h2>
+                <div class="gold-line align-left"></div>
+                <p>Welcome to Velmora, an exclusive luxury jewelry destination crafted for the modern woman. Every piece
+                    in our collection tells a story of elegance and grace.</p>
+                <p>We believe that luxury should be accessible without compromising on quality. Hand-selected and
+                    carefully curated, our designs blend classic beauty with contemporary flair.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="why-us section-padding">
+        <div class="container">
+            <div class="section-title fade-in-up">
+                <h2>Why Choose Us</h2>
+                <div class="gold-line"></div>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card fade-in-up">
+                    <div class="feature-icon"><i class="fa-solid fa-gem"></i></div>
+                    <h3>Premium Finish</h3>
+                    <p>Exceptional attention to detail ensuring an impeccable, long-lasting shine.</p>
+                </div>
+                <div class="feature-card fade-in-up" style="transition-delay: 0.1s;">
+                    <div class="feature-icon"><i class="fa-solid fa-hand-sparkles"></i></div>
+                    <h3>Handcrafted Quality</h3>
+                    <p>Designed and assembled by skilled artisans perfecting every intricate curve.</p>
+                </div>
+                <div class="feature-card fade-in-up" style="transition-delay: 0.2s;">
+                    <div class="feature-icon"><i class="fa-solid fa-tag"></i></div>
+                    <h3>Affordable Luxury</h3>
+                    <p>Experience the prestige of fine jewelry without the excessive retail markup.</p>
+                </div>
+                <div class="feature-card fade-in-up" style="transition-delay: 0.3s;">
+                    <div class="feature-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                    <h3>Custom Orders</h3>
+                    <p>Have a vision? We bring your dream jewelry piece into reality with bespoke designs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding bg-blush">
+        <div class="container contact-container">
+            <div class="section-title fade-in-up">
+                <h2>Get In Touch</h2>
+                <div class="gold-line"></div>
+                <p>We'd love to hear from you. Reach out for custom orders, inquiries, or just to say hello.</p>
+            </div>
+            <div class="contact-links fade-in-up">
+                <a href="https://wa.me/917907445995" class="contact-card whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>Message on WhatsApp</span>
+                </a>
+                <a href="#" class="contact-card instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                    <span>Follow on Instagram</span>
+                </a>
+                <a href="mailto:hello@velmora.com" class="contact-card email">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>Email Us</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="logo footer-logo">VELMORA</a>
+                <p class="footer-tagline">Where Elegance Meets Timeless Beauty</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Velmora. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/917907445995" class="floating-wa" target="_blank" aria-label="Chat with us on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
