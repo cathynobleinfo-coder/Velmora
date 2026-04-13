@@ -58,7 +58,9 @@ const products = [
     { name: "OPEL HEART 2.0", price: 120, img: "OPEL HEART 2.0 120.jpeg", category: "necklace", isNew: true },
     { name: "ORNATE", price: 140, img: "ORNATE 140.jpeg", category: "necklace", isNew: true },
     { name: "ROSE", price: 130, img: "ROSE 130.jpeg", category: "necklace", isNew: true },
-    { name: "SATURN", price: 130, img: "SATURN 130.jpeg", category: "necklace", isNew: true }
+    { name: "SATURN", price: 130, img: "SATURN 130.jpeg", category: "necklace", isNew: true },
+    { name: "BRACELET 1", price: 70, img: "BRACELET.jpeg", category: "bracelets", isNew: true },
+    { name: "BRACELET 2", price: 70, img: "BRACELET_.jpeg", category: "bracelets", isNew: true }
 ];
 
 const phoneNumber = "7907445995"; // Owner's WhatsApp Number
