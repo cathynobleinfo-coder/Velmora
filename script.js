@@ -45,7 +45,20 @@ const products = [
     { name: "MONARCH", price: 90, img: "MONARCH 90.jpeg", category: "necklace", isNew: true },
     { name: "NEXA", price: 90, img: "NEXA 90.jpeg", category: "necklace", isNew: true },
     { name: "PULSE", price: 90, img: "PULSE 90.jpeg", category: "necklace", isNew: true },
-    { name: "SWIRL", price: 90, img: "SWIRL 90.jpeg", category: "necklace", isNew: true }
+    { name: "SWIRL", price: 90, img: "SWIRL 90.jpeg", category: "necklace", isNew: true },
+    { name: "AXEL 3.0", price: 130, img: "AXEL 3.0 130.jpeg", category: "necklace", isNew: true },
+    { name: "BLACK STAR", price: 140, img: "BLACK STAR 140.jpeg", category: "necklace", isNew: true },
+    { name: "BLISS", price: 130, img: "BLISS 130.jpeg", category: "necklace", isNew: true },
+    { name: "CLOVER CROSS", price: 150, img: "CLOVER CROSS 150.jpeg", category: "necklace", isNew: true },
+    { name: "DEVIL EYE CROSS", price: 120, img: "DEVIL EYE CROSS 120.jpeg", category: "necklace", isNew: true },
+    { name: "FISH TAIL", price: 130, img: "FISH TAIL 130.jpeg", category: "necklace", isNew: true },
+    { name: "FLORA", price: 130, img: "FLORA 130.jpeg", category: "necklace", isNew: true },
+    { name: "FLORA CROSS", price: 140, img: "FLORA CROSS  140.jpeg", category: "necklace", isNew: true },
+    { name: "MOOOOOON", price: 130, img: "MOOOOOON 130.jpeg", category: "necklace", isNew: true },
+    { name: "OPEL HEART 2.0", price: 120, img: "OPEL HEART 2.0 120.jpeg", category: "necklace", isNew: true },
+    { name: "ORNATE", price: 140, img: "ORNATE 140.jpeg", category: "necklace", isNew: true },
+    { name: "ROSE", price: 130, img: "ROSE 130.jpeg", category: "necklace", isNew: true },
+    { name: "SATURN", price: 130, img: "SATURN 130.jpeg", category: "necklace", isNew: true }
 ];
 
 const phoneNumber = "7907445995"; // Owner's WhatsApp Number
